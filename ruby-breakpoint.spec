@@ -1,7 +1,8 @@
 %define	ruby_archdir	%(ruby -r rbconfig -e 'print Config::CONFIG["archdir"]')
 %define ruby_rubylibdir %(ruby -r rbconfig -e 'print Config::CONFIG["rubylibdir"]')
 %define	ruby_ridir	%(ruby -r rbconfig -e 'include Config; print File.join(CONFIG["datadir"], "ri", CONFIG["ruby_version"], "system")')
-Summary:	ruby-breakpoint lets you inspect and modify state at run time
+Summary:	Module that lets you inspect and modify state at run time
+Summary(pl):	Modu³ pozwalaj±cy na sprawdzanie i zmianê stanu programu w czasie dzia³ania
 Name:		ruby-breakpoint
 Version:	0.5.0
 Release:	1
@@ -16,9 +17,15 @@ Requires:	ruby
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-ruby-breakpoint lets you inspect and modify state at run time. This allows 
-you to diagnose bugs, patch applications and more all via IRB by simply 
-doing a method call at the place you want to investigate.
+ruby-breakpoint lets you inspect and modify state at run time. This
+allows you to diagnose bugs, patch applications and more all via IRB
+by simply doing a method call at the place you want to investigate.
+
+%description -l pl
+ruby-breakpoint pozwala na sprawdzanie i zmianê stanu w czasie
+dzia³ania programu. Umo¿liwia to diagnozowanie b³êdów, poprawianie
+aplikacji i inne rzeczy, a wszystko to przez IRB, po prostu wywo³uj±c
+metodê w miejscu, które chcemy ¶ledziæ.
 
 %prep
 %setup -q
