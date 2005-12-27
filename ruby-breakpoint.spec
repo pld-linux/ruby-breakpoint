@@ -9,7 +9,6 @@ Source0:	http://rubyforge.org/frs/download.php/3302/%{name}-%{version}.tgz
 # Source0-md5:	c7ca9db1f1ae105c99ddd945d8c55c20
 URL:		http://ruby-breakpoint.rubyforge.org/
 BuildRequires:	rpmbuild(macros) >= 1.263
-BuildRequires:	ruby-modules
 BuildRequires:	ruby-devel
 Requires:	ruby-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
