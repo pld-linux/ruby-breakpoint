@@ -1,5 +1,5 @@
 Summary:	Module that lets you inspect and modify state at run time
-Summary(pl.UTF-8):   Moduł pozwalający na sprawdzanie i zmianę stanu programu w czasie działania
+Summary(pl.UTF-8):	Moduł pozwalający na sprawdzanie i zmianę stanu programu w czasie działania
 Name:		ruby-breakpoint
 Version:	0.5.0
 Release:	2
