@@ -1,5 +1,5 @@
 Summary:	Module that lets you inspect and modify state at run time
-Summary(pl):	Modu³ pozwalaj±cy na sprawdzanie i zmianê stanu programu w czasie dzia³ania
+Summary(pl.UTF-8):   ModuÅ‚ pozwalajÄ…cy na sprawdzanie i zmianÄ™ stanu programu w czasie dziaÅ‚ania
 Name:		ruby-breakpoint
 Version:	0.5.0
 Release:	2
@@ -18,11 +18,11 @@ ruby-breakpoint lets you inspect and modify state at run time. This
 allows you to diagnose bugs, patch applications and more all via IRB
 by simply doing a method call at the place you want to investigate.
 
-%description -l pl
-ruby-breakpoint pozwala na sprawdzanie i zmianê stanu w czasie
-dzia³ania programu. Umo¿liwia to diagnozowanie b³êdów, poprawianie
-aplikacji i inne rzeczy, a wszystko to przez IRB, po prostu wywo³uj±c
-metodê w miejscu, które chcemy ¶ledziæ.
+%description -l pl.UTF-8
+ruby-breakpoint pozwala na sprawdzanie i zmianÄ™ stanu w czasie
+dziaÅ‚ania programu. UmoÅ¼liwia to diagnozowanie bÅ‚Ä™dÃ³w, poprawianie
+aplikacji i inne rzeczy, a wszystko to przez IRB, po prostu wywoÅ‚ujÄ…c
+metodÄ™ w miejscu, ktÃ³re chcemy Å›ledziÄ‡.
 
 %prep
 %setup -q
